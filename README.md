@@ -8,4 +8,6 @@ https://syedarshad.in
 
 https://github.com/hybridappdev/primitives
 
+Split loads this app from port 5002. A desk release does not rebuild it.
+
 MIT
