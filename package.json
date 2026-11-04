@@ -8,7 +8,7 @@
     "node": ">=20"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild", "@hybridappdev/primitives", "@hybridappdev/gate"]
+    "onlyBuiltDependencies": ["esbuild"]
   },
   "scripts": {
     "dev": "vite",
@@ -17,12 +17,12 @@
     "gate": "gate"
   },
   "dependencies": {
-    "@hybridappdev/primitives": "github:hybridappdev/primitives",
+    "@hybridappdev/primitives": "github:hybridappdev/primitives#29d4d3a223429a9de0ae7c6cdebd1ee7cfa57cd2",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@hybridappdev/gate": "github:hybridappdev/gate",
+    "@hybridappdev/gate": "github:hybridappdev/gate#b95c0db5e75e3c830853ab2aeb726227068d5e03",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",

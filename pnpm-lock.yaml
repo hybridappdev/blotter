@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@hybridappdev/primitives':
-        specifier: github:hybridappdev/primitives
-        version: https://codeload.github.com/hybridappdev/primitives/tar.gz/3532f8303adf85179d1bd5f1758f790c0791580e(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: github:hybridappdev/primitives#29d4d3a223429a9de0ae7c6cdebd1ee7cfa57cd2
+        version: https://codeload.github.com/hybridappdev/primitives/tar.gz/29d4d3a223429a9de0ae7c6cdebd1ee7cfa57cd2(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       react:
         specifier: ^19.3.1
         version: 19.3.1
@@ -19,8 +19,8 @@ importers:
         version: 19.3.1(react@19.3.1)
     devDependencies:
       '@hybridappdev/gate':
-        specifier: github:hybridappdev/gate
-        version: https://codeload.github.com/hybridappdev/gate/tar.gz/69d994ed2c705155cbc75d1869ed3bfc2601a6b8
+        specifier: github:hybridappdev/gate#b95c0db5e75e3c830853ab2aeb726227068d5e03
+        version: https://codeload.github.com/hybridappdev/gate/tar.gz/b95c0db5e75e3c830853ab2aeb726227068d5e03
       '@types/react':
         specifier: ^19.3.0
         version: 19.3.0
@@ -42,14 +42,14 @@ importers:
 
 packages:
 
-  '@hybridappdev/gate@https://codeload.github.com/hybridappdev/gate/tar.gz/69d994ed2c705155cbc75d1869ed3bfc2601a6b8':
-    resolution: {tarball: https://codeload.github.com/hybridappdev/gate/tar.gz/69d994ed2c705155cbc75d1869ed3bfc2601a6b8}
+  '@hybridappdev/gate@https://codeload.github.com/hybridappdev/gate/tar.gz/b95c0db5e75e3c830853ab2aeb726227068d5e03':
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/hybridappdev/gate/tar.gz/b95c0db5e75e3c830853ab2aeb726227068d5e03}
     version: 0.1.0
     engines: {node: '>=20'}
     hasBin: true
 
-  '@hybridappdev/primitives@https://codeload.github.com/hybridappdev/primitives/tar.gz/3532f8303adf85179d1bd5f1758f790c0791580e':
-    resolution: {tarball: https://codeload.github.com/hybridappdev/primitives/tar.gz/3532f8303adf85179d1bd5f1758f790c0791580e}
+  '@hybridappdev/primitives@https://codeload.github.com/hybridappdev/primitives/tar.gz/29d4d3a223429a9de0ae7c6cdebd1ee7cfa57cd2':
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/hybridappdev/primitives/tar.gz/29d4d3a223429a9de0ae7c6cdebd1ee7cfa57cd2}
     version: 0.1.0
     engines: {node: '>=20'}
     peerDependencies:
@@ -110,36 +110,42 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@rolldown/binding-linux-arm64-musl@1.2.15':
     resolution: {integrity: sha512-uN26XOnVR7rqQupG3V9oAG2EGGatWjcJHOeDOHUFCh4TBWmP2tHTFoVN13aYbwfm0aHqJAEmcwhAu6sooIjfqQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@rolldown/binding-linux-ppc64-gnu@1.2.15':
     resolution: {integrity: sha512-9nWkcdd+H+XhaA3fQIwpHnKIrfx/PQ6rO0pivr78Og07tXlUlctBBJoEYLPfhTmCR/QxEVdn6uPjHV5SymPhdw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ppc64]
     os: [linux]
+    libc: [glibc]
 
   '@rolldown/binding-linux-s390x-gnu@1.2.15':
     resolution: {integrity: sha512-Ggh0ciFjLwIusLSLz7LZYEaGdxOAUJXI+Qu5JCbhPJJHEt8vP+IjRATTJheiJsdzzTYgUiHUiw3X1Ea3ZpMBdA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [s390x]
     os: [linux]
+    libc: [glibc]
 
   '@rolldown/binding-linux-x64-gnu@1.2.15':
     resolution: {integrity: sha512-FHg60rS6DBePAYZ9X9F67x+JObFdmgn6tupA1C/a3B+CufFmTD4mX+e8M75tCiAO3foR/6xwVBI0KQiI7sn/rw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@rolldown/binding-linux-x64-musl@1.2.15':
     resolution: {integrity: sha512-/cvV/7v5VGz/moiz0XKRj2dE8DzsKyhIu1KpOvJGPjRywg3yscON889UGvAe8zfiJLHup7VLjBduoGWi3HusWQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@rolldown/binding-openharmony-arm64@1.2.15':
     resolution: {integrity: sha512-MyzC5Hrv/sm+Z7TSGKP/j8001RO2xQm1zOpCNVL4j0cY/VhBZviludA2YFQ7i4lH6ZAXxQm0lcMdBzM+99mE7w==}
@@ -406,24 +412,28 @@ packages:
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   lightningcss-linux-arm64-musl@1.33.0:
     resolution: {integrity: sha512-yiO5ROMuYQgXbC60yjZU5CYSFZGKXL0HFATXt9mHJn1+zW55oCtMI9NfcVhYLMFDL7gV7oBPon/EmMMGg2OvtQ==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   lightningcss-linux-x64-gnu@1.33.0:
     resolution: {integrity: sha512-ar+Ju7LmcN0Jo4FpL4hpFybwNG9/3A/Br5KW2n2jyODg3MEZXaDYADdemoNS+BDNfMgKvylJLj4S5tyRActuAg==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   lightningcss-linux-x64-musl@1.33.0:
     resolution: {integrity: sha512-RYiYbkokw0trfKqqzfF55lginwEPrD3OJDfTuJzFs1MK6iFnDenaz1fqLLtX4ITG3OktJQXOeTaw1awrBAlZPw==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   lightningcss-win32-arm64-msvc@1.33.0:
     resolution: {integrity: sha512-1K+MPfLSFVpphzpdbfkhlWk6wBrTObBzS2T6db10PNOZgR9GoVsAWzwNyuhUYYbTp23j+4RrncfujZ4uAzXvwA==}
@@ -599,9 +609,9 @@ packages:
 
 snapshots:
 
-  '@hybridappdev/gate@https://codeload.github.com/hybridappdev/gate/tar.gz/69d994ed2c705155cbc75d1869ed3bfc2601a6b8': {}
+  '@hybridappdev/gate@https://codeload.github.com/hybridappdev/gate/tar.gz/b95c0db5e75e3c830853ab2aeb726227068d5e03': {}
 
-  '@hybridappdev/primitives@https://codeload.github.com/hybridappdev/primitives/tar.gz/3532f8303adf85179d1bd5f1758f790c0791580e(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
+  '@hybridappdev/primitives@https://codeload.github.com/hybridappdev/primitives/tar.gz/29d4d3a223429a9de0ae7c6cdebd1ee7cfa57cd2(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
